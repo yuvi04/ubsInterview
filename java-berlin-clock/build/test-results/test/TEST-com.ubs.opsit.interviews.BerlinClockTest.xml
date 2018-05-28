@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ubs.opsit.interviews.BerlinClockTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2018-05-28T14:30:46" hostname="DELL-PC" time="0.014">
+  <properties/>
+  <testcase name="testBottomMinutesShouldHave4Lamps" classname="com.ubs.opsit.interviews.BerlinClockTest" time="0.001"/>
+  <testcase name="testBerlinClockShouldResultInCorrectSecondsHoursAndMinutes" classname="com.ubs.opsit.interviews.BerlinClockTest" time="0.009"/>
+  <testcase name="testTopMinutesShouldHave11Lamps" classname="com.ubs.opsit.interviews.BerlinClockTest" time="0.0"/>
+  <testcase name="testTopHoursShouldHave4Lamps" classname="com.ubs.opsit.interviews.BerlinClockTest" time="0.0"/>
+  <testcase name="testTopMinutesShouldHave3rd6thAnd9thLampsInRedToIndicateFirstQuarterHalfAndLastQuarter" classname="com.ubs.opsit.interviews.BerlinClockTest" time="0.0"/>
+  <testcase name="testTopMinutesShouldLightYellowLampForEvery5MinutesUnlessItIsFirstQuarterHalfOrLastQuarter" classname="com.ubs.opsit.interviews.BerlinClockTest" time="0.0"/>
+  <testcase name="testBottomMinutesShouldLightYellowLampForEveryMinuteLeftFromTopMinutes" classname="com.ubs.opsit.interviews.BerlinClockTest" time="0.0"/>
+  <testcase name="testBerlinClockShouldResultInArrayWith5Elements" classname="com.ubs.opsit.interviews.BerlinClockTest" time="0.0"/>
+  <testcase name="testBottomHoursShouldHave4Lamps" classname="com.ubs.opsit.interviews.BerlinClockTest" time="0.0"/>
+  <testcase name="testBlinkOnOffEveryTwoSecondsYellowLamp" classname="com.ubs.opsit.interviews.BerlinClockTest" time="0.0"/>
+  <testcase name="testTopHoursShouldLightRedLampForEvery5Hours" classname="com.ubs.opsit.interviews.BerlinClockTest" time="0.0"/>
+  <testcase name="testBottomHoursShouldLightRedLampForEveryHourLeftFromTopHours" classname="com.ubs.opsit.interviews.BerlinClockTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

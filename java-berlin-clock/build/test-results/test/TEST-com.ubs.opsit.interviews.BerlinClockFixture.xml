@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ubs.opsit.interviews.BerlinClockFixture" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-05-28T14:30:45" hostname="DELL-PC" time="1.607">
+  <properties/>
+  <testcase name="berlinClockAcceptanceTests" classname="com.ubs.opsit.interviews.BerlinClockFixture" time="1.607"/>
+  <system-out><![CDATA[2018-05-28T20:00:45.550 | est worker | ClasspathStoryFinder | INFO   - Searching for stories called [berlin-clock.story] in [[C:\WorkSpace\java-berlin-clock\build\classes\java\test, C:\WorkSpace\java-berlin-clock\build\resources\test, C:\WorkSpace\java-berlin-clock\build\classes\java\main]] 
+2018-05-28T20:00:45.567 | est worker | aviouralTestEmbedder | INFO   - Running [BehaviouralTestEmbedder] with spring_stories [[file:/C:/WorkSpace/java-berlin-clock/build/resources/test/stories/berlin-clock.story]] 
+Processing system properties {}
+Using controls EmbedderControls[batch=false,skip=false,generateViewAfterStories=true,ignoreFailureInStories=false,ignoreFailureInView=false,verboseFailures=false,verboseFiltering=false,storyTimeoutInSecs=300,threads=1]
+
+(BeforeStories)
+
+Running story file:/C:/WorkSpace/java-berlin-clock/build/resources/test/stories/berlin-clock.story
+Story: The Berlin Clock
+(file:/C:/WorkSpace/java-berlin-clock/build/resources/test/stories/berlin-clock.story)
+Meta:
+@scope interview
+
+Scenario: Midnight
+When the time is 00:00:00 (PENDING)
+Then the clock should look like
+Y
+OOOO
+OOOO
+OOOOOOOOOOO
+OOOO (PENDING)
+@When("the time is 00:00:00")
+@Pending
+public void whenTheTimeIs000000() {
+  // PENDING
+}
+
+@Then("the clock should look like\r\nY\r\nOOOO\r\nOOOO\r\nOOOOOOOOOOO\r\nOOOO")
+@Pending
+public void thenTheClockShouldLookLikeYOOOOOOOOOOOOOOOOOOOOOOO() {
+  // PENDING
+}
+
+
+Scenario: Middle of the afternoon
+When the time is 13:17:01 (PENDING)
+Then the clock should look like
+O
+RROO
+RRRO
+YYROOOOOOOO
+YYOO (PENDING)
+@When("the time is 13:17:01")
+@Pending
+public void whenTheTimeIs131701() {
+  // PENDING
+}
+
+@Then("the clock should look like\r\nO\r\nRROO\r\nRRRO\r\nYYROOOOOOOO\r\nYYOO")
+@Pending
+public void thenTheClockShouldLookLikeORROORRROYYROOOOOOOOYYOO() {
+  // PENDING
+}
+
+
+Scenario: Just before midnight
+When the time is 23:59:59 (PENDING)
+Then the clock should look like
+O
+RRRR
+RRRO
+YYRYYRYYRYY
+YYYY (PENDING)
+@When("the time is 23:59:59")
+@Pending
+public void whenTheTimeIs235959() {
+  // PENDING
+}
+
+@Then("the clock should look like\r\nO\r\nRRRR\r\nRRRO\r\nYYRYYRYYRYY\r\nYYYY")
+@Pending
+public void thenTheClockShouldLookLikeORRRRRRROYYRYYRYYRYYYYYY() {
+  // PENDING
+}
+
+
+Scenario: Midnight
+When the time is 24:00:00 (PENDING)
+Then the clock should look like
+Y
+RRRR
+RRRR
+OOOOOOOOOOO
+OOOO (PENDING)
+@When("the time is 24:00:00")
+@Pending
+public void whenTheTimeIs240000() {
+  // PENDING
+}
+
+@Then("the clock should look like\r\nY\r\nRRRR\r\nRRRR\r\nOOOOOOOOOOO\r\nOOOO")
+@Pending
+public void thenTheClockShouldLookLikeYRRRRRRRROOOOOOOOOOOOOOO() {
+  // PENDING
+}
+
+
+
+
+(AfterStories)
+
+Generating reports view to 'C:\WorkSpace\java-berlin-clock\build\classes\java\jbehave' using formats '[stats, html, console]' and view properties '{defaultFormats=stats, decorateNonHtml=true, viewDirectory=view, decorated=ftl/jbehave-report-decorated.ftl, reports=ftl/jbehave-reports-with-totals.ftl, maps=ftl/jbehave-maps.ftl, navigator=ftl/jbehave-navigator.ftl, views=ftl/jbehave-views.ftl, nonDecorated=ftl/jbehave-report-non-decorated.ftl}'
+Reports view generated with 1 stories (of which 1 pending) containing 4 scenarios (of which 4 pending)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
